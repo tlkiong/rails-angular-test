@@ -28,6 +28,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 gem 'bower-rails'
+gem 'listen', '~> 2.7'
 
 group :development, :test do
   gem 'byebug'
@@ -36,6 +37,7 @@ group :development, :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'selenium-webdriver'
+  gem 'sqlite3'
 end
 
 group :development do

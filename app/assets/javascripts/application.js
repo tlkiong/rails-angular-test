@@ -12,5 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require angular/angular
+//= require angular
+//= require angular-animate
+//= require angular-sanitize
+//= require angular-toastr
+//= require angular-touch
+//= require angular-ui-router
+//= require ./angularjs/core/templates
 //= require_tree .
